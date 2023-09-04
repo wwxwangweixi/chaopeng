@@ -1,0 +1,13 @@
+@CHARSET "UTF-8";
+
+/*jquery分页*/
+.holder{padding-right:10px;color:#505050;padding-left:15px;background:url(../images/page.jpg)/*tpa=http://www.zjcpcy.com/template/default/images/page.jpg*/ repeat-x;height: 33px;line-height: 33px;text-align: right;}
+.holder a{background-color:#f6f6f6;vertical-align:middle; border:#cfcece 1px solid; color:#000;padding:3px 5px; margin-right:3px;line-height:33px;cursor:pointer;}
+.holder a:hover {background-color:#f6f6f6;color:#000; text-decoration:none;border:#ff0000 1px solid;}
+.holder a.jp-previous{margin-right:5px;}
+.holder a.jp-next {margin-left:5px;}
+.holder span {margin: 0 5px;}
+.holder a.jp-current, a.jp-current:hover { color: #bbb;font-weight: bold;}
+.holder a.jp-disabled, a.jp-disabled:hover {color: #bbb;}
+.holder a.jp-current, a.jp-current:hover,.holder a.jp-disabled, a.jp-disabled:hover {cursor: default; background:#fff;}
+.holder span {margin:0 5px;}

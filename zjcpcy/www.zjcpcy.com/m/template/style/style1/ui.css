@@ -1,0 +1,296 @@
+@CHARSET "UTF-8";
+.mobile-content{position: relative;}
+
+#header{width:100%;   text-align:center;font-weight:bold; padding-bottom:5px; line-height:44px; font:bold 20px/44px "微软雅黑"; color:#434343; position:relative;padding-top: 4%;padding-bottom: 4%;}
+.header_left{width:74px; height:34px; background:url(../../images/abc.png)/*tpa=http://www.zjcpcy.com/m/template/images/abc.png*/ center 10px no-repeat; background-size:26px 24px; position:absolute; left:0; top:0;  margin-top:5px;}
+.header_right{width:74px; height:34px; background:url(../../images/13.png)/*tpa=http://www.zjcpcy.com/m/template/images/13.png*/ center 10px no-repeat; position:absolute; right:0; top:0; background-size:26px 21px; margin-top:5px;}
+
+.logo{float:left;padding-left:10px;width:50%;}
+.logo img{width:70%;}
+.memu{float:right;width: 50%}
+.haoma{background: url(../../images/c.png)/*tpa=http://www.zjcpcy.com/m/template/images/c.png*/ no-repeat top left;padding-left: 18%;color: #020202;font-size: 12.86px;background-size: 50%;float: left;width: 80%;margin-top: 5%}
+
+.navbg{width: 16%;float:right;height: 40px;background: url(../../images/navbg.png)/*tpa=http://www.zjcpcy.com/m/template/images/navbg.png*/ no-repeat;background-size: 60%;
+background-position: 50%;cursor:pointer;margin-top:5%;border-left: 1px solid #c4c4c4}
+
+.close{width:22px;height:22px;text-align:center;line-height:22px;background:#444;border-radius:3px;margin:3px 0;color:#fff;position:absolute;right:5px;top:5px;z-index:9999;cursor:pointer;font-family:"微软雅黑"}
+
+.nav1{width:100%;display:none;position:absolute;top:0;left:0;background:rgba(255,151,0,.3);}
+#nav{width:100%;padding-top:30px;position:relative;z-index:999}
+#nav li{border-bottom:1px solid #fff;background:#0099ff;line-height:40px;text-align:center}
+#nav li a{display:block;color:#fff;}
+
+
+/*header css style*/
+.class-btn {
+    font-size: 12px;
+    line-height: 44px;
+    cursor: pointer;
+    background: url(../../images/btn.png)/*tpa=http://www.zjcpcy.com/m/template/images/btn.png*/ no-repeat 4%;
+    background-size: 16px 16px;
+    padding-left: 41px;
+    color: #434343;
+    width: 100%;
+}
+.bg-shaow{
+    background: rgba(0,0,0,0.5);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    display: none;
+}
+
+
+.products-home ul{margin-top: 6%;}
+.products-home ul li{width: 21%;float: left;margin-right:2%;margin-left:2%;min-height: 78px;margin-bottom: 20px;}
+.products-home ul li a{display:block;color:#b19975;font:400 17px/32px "Microsoft Yahei";text-align: center;padding-top: 54px;}
+.products-home ul li span{display:block;color:#808080;font:400 18px/20px "Microsoft Yahei";text-align: center;padding-top: 5%;}
+.products-home ul li.pro1{background: url(../../images/m1.png)/*tpa=http://www.zjcpcy.com/m/template/images/m1.png*/ no-repeat center top;background-size: 50px 50px;}
+.products-home ul li.pro2{background: url(../../images/m2.png)/*tpa=http://www.zjcpcy.com/m/template/images/m2.png*/ no-repeat center top;background-size: 50px 50px;}
+.products-home ul li.pro3{background: url(../../images/m3.png)/*tpa=http://www.zjcpcy.com/m/template/images/m3.png*/ no-repeat center top;background-size: 50px 50px;}
+.products-home ul li.pro4{background: url(../../images/m4.png)/*tpa=http://www.zjcpcy.com/m/template/images/m4.png*/ no-repeat center top;background-size: 50px 50px;}
+
+.product{width:98%;margin:0 auto;}
+.product ul{padding-bottom:5px; text-align:left !important;margin-top: 2%}
+.product ul li{overflow: hidden;width: 46.0%;margin: 5% 2% 3% 2%;float:left;padding: 1px;position: relative;}
+
+.product ul li a img{display: block;width:100%;height: auto;vertical-align: middle;border:2px solid #c9c9c9;}
+.product ul li h3{display: block;width:100%;line-height: 24px;height: 24px;overflow: hidden;color:#fff;text-align:center;font-weight:normal;position: absolute;bottom: 0;background: rgba(0,0,0,.39);}
+.product ul li h3 a{text-align:center;color:#c4d7f0;display: block;font-weight:normal;font-size: 12px;}
+
+.ab{margin:5% 2% 2% 2%;color:#403c3c;font:500 16px/24px "微软雅黑";}
+.ab img{width:100%;}
+.ab2{color:#403c3c;font:500 16px/24px "微软雅黑";margin:0 4%;}
+
+.news-list li{float: left;width:45%;margin-left: 2.5%;margin-top:8%}
+.news-list li:nth-child(2n){float:right;margin-left:0;margin-right:2.5%}
+.date{width:32%;float: left;background:#d4d4d4}
+.date dl{font-size:2.5em;color:#379ddf;line-height: 1.6em;}
+.date dt{font-size:1.1em;line-height: 1.2em;padding-bottom: 13%;}
+.nei{width:62%;float: right;}
+.nei a{color:#379ddf;font-size:1em;display:block;line-height:2.8em;text-align:left;}
+
+.img_heng{width: 100%}
+.img_heng img{width: 100%;margin-top:6%;}
+.jishu{line-height:2.5em;padding-top:5%;padding-bottom:5%;color:#313030;}
+
+.distraction{height:70px; width:100%;line-height: 70px;color: #4e5f70;font-size: 20px;text-align: center;}
+
+
+/*分页样式*/
+#list ul{overflow: hidden;}
+#pagecount{text-align: center;margin-top: 15px;padding-bottom:10px;}
+#pagecount span a{margin:0 2px;padding:3px 8px;background: #cfcfcf;color:#fff;font-size: 12px;}
+#pagecount span.pageBtn-selected a{background: #379ddf}
+#pagecount span.prevpage,#pagecount span.nextpage{padding:3px 5px;background: #379ddf;color:#fff;margin:0 2px;font-size: 12px;}
+#pagecount span.prevpage a,#pagecount span.nextpage a{background: #379ddf;color:#fff;margin: 0;padding: 0;font-size: 12px;}
+
+
+/*网站头部返回按钮样式*/
+.header_return{position:absolute;right:15px;top:2px;}
+.header_return img{width:43px;height: 40px;}
+
+ /*banner css style*/
+.out_b{overflow:hidden; margin:0 auto; width:320px; padding-top:10px; padding-bottom:10px;}
+.slide {position : relative; height:150px; overflow:hidden; width:320px; overflow:hidden; margin:0 auto;}
+.slide .content{height:320px; -webkit-transform-style: preserve-3d;-webkit-backface-visibility: hidden;}
+.slide a {display:inline-block; float:left; width:320px; height:150px; }
+.slide a img{width:320px;}
+.slide .mark {width: 100%; position: absolute;height: 3px; bottom: 0; background-color: rgba(51,51,51,0.5); -webkit-transform: translate3d(0,0,0); display: -webkit-box;}
+.slide .mark li {display: block; -webkit-box-flex: 1; height: 100%; overflow: hidden;}
+.slide .mark li.active { background-color:#25a4bb;}
+
+.scroll{width:320px;height:auto;margin:0 auto 0 auto; position:relative;overflow:hidden;}
+.mod_01{float:left;width:320px;}
+.mod_01 img{display:block;width:100%;height:auto;}
+.dotModule_new{padding:0 5px;height:11px;line-height:6px;-webkit-border-radius:11px;;position:absolute;bottom:5px;right:50%;z-index:11;width:80px;margin-right:-40px;}
+#slide_01_dot{text-align:center;margin:1px 0 0 0;}
+#slide_01_dot span{display:inline-block;margin:0 2px;width:9px;height:9px;vertical-align:middle;background:#f7f7f7;-webkit-border-radius:9px;}
+#slide_01_dot .selected{background:#13b5b1;}
+
+ /*product css style*/
+
+.products{position:relative; width:99.5%; margin:0 auto; background:#fff;}
+.contentss{padding:10px; line-height:25px; text-align:left; text-indent:25px;}
+.ee{padding-left:20px; font-family:"微软雅黑";}
+.products_title{background:url(../../images/eef.jpg)/*tpa=http://www.zjcpcy.com/m/template/images/eef.jpg*/ 18px center no-repeat #fff; background-size:2px 22px; text-align:left; padding-left:30px; border-bottom:1px solid #d5d5d5;  font:400 14px/40px "微软雅黑"; height:40px; width:100%;  border-bottom:1px solid #d5d5d5;color:#000;}
+.products ul{padding-bottom:5px; text-align:left !important;}
+.products ul li{display: inline-block;margin-top: 15px;text-align: center;overflow: hidden; width:49.0%; padding:5px;}
+.products ul li a{display: inline-block;overflow: hidden;border: 1px solid #fff;box-shadow: 3px 3px 5px #aaa; width:100%;}
+.products ul li a img{display: block;width:100%;height: auto;vertical-align: middle;}
+.products ul li  h3{display: block;width:100%;line-height: 30px;height: 30px;overflow: hidden;text-align: center;background: #eee;}
+
+
+ /* news css style*/
+.news{position:relative; width:99.5%; margin:0 auto; background:#fff;color:#000;}
+.news_title{background:url(../../images/eef.jpg)/*tpa=http://www.zjcpcy.com/m/template/images/eef.jpg*/ 18px center no-repeat #fff; background-size:2px 22px; text-align:left; padding-left:30px; border-bottom:1px solid #d5d5d5;  font:400 14px/40px "微软雅黑"; height:40px; width:100%;  border-bottom:1px solid #d5d5d5;}
+.news ul{}
+.news ul li{height:35px; line-height:35px; border-bottom:1px solid #d3d3d3; background:url(../../images/dd1.jpg)/*tpa=http://www.zjcpcy.com/m/template/images/dd1.jpg*/ 95% center no-repeat; background-size:20px 20px;}
+.news ul li a{font:400 12px/35px "微软雅黑"; padding-left:28px; text-align:left; display:block;}
+
+/* product_cate css style*/
+.product_cate {
+    width: 100%;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    z-index: 999;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    -ms-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+    height: auto;
+    padding: 5px 0;
+    display: none;
+    background: #fff;
+}
+
+.product_cate_title {
+    background: url(../../images/eef.jpg)/*tpa=http://www.zjcpcy.com/m/template/images/eef.jpg*/ 18px center no-repeat #fff;
+    background-size: 2px 22px;
+    text-align: left;
+    padding-left: 30px;
+    border-bottom: 1px solid #d5d5d5;
+    font: 400 16px/40px "微软雅黑";
+    height: 40px;
+    width: 100%;
+    border-bottom: 1px solid #d5d5d5;
+}
+
+.product_cate ul {}
+
+.product_cate ul li {
+    line-height: 35px;
+    position: relative;
+}
+
+.product_cate ul li.yiji {
+    border-bottom: 1px solid #d3d3d3;
+}
+
+.product_cate ul li a {
+    font: 400 12px/35px "微软雅黑";
+    padding-left: 20px;
+    text-align: left;
+    display: block;
+    width: 88%;
+}
+
+.product_cate ul li .class-down {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 12%;
+    display: block;
+    line-height: 35px;
+    cursor: pointer;
+    background: url(../../images/abcd.png)/*tpa=http://www.zjcpcy.com/m/template/images/abcd.png*/ center no-repeat;
+    height: 35px;
+    background-size: 20px 20px;
+}
+
+.product_cate ul li .layer2 li a {
+    padding-left: 28px;
+}
+
+.product_cate ul li .layer2 .layer3 li a {
+    padding-left: 36px;
+}
+
+.product_cate ul li .class-up {
+    background: url(../../images/abcde.png)/*tpa=http://www.zjcpcy.com/m/template/images/abcde.png*/ center no-repeat;
+    background-size: 20px 20px;
+}
+
+.title2{font:500 22px/45px "微软雅黑";color:#262e5a;text-indent:20px;margin-top:4%;position:relative;border-bottom:1px  solid #e5e5e5;background:url(../../images/t1.png)/*tpa=http://www.zjcpcy.com/m/template/images/t1.png*/ no-repeat 1%;}
+.title2 a{color:#2c345e;font:500 14px/45px "微软雅黑";position:absolute;right:20px;top:0;}
+
+
+
+.job_cate{width:99.5%; margin:0 auto;margin-top:20px;}
+.job_cate ul{}
+.job_cate ul li{height:35px; line-height:35px; border-bottom:1px solid #d3d3d3; background:url(../../images/abcd.png)/*tpa=http://www.zjcpcy.com/m/template/images/abcd.png*/ 95% center no-repeat; background-size:20px 20px;}
+.job_cate ul li a{font:400 12px/35px "微软雅黑"; padding-left:20px; text-align:left; display:block;}
+
+/* footer css style*/
+.footer{ width:100%; margin-top:6px;position: fixed; z-index: 110;bottom: 0;left: 0;}
+.footer1{max-width:640px;margin:0 auto;background:#130409;display:-webkit-box; }
+.footer a{-webkit-box-flex: 1;display: -webkit-box; color:#fff;}
+.footer span{width:74px; display:block; margin:0 auto; text-align:right; font:400 22px/70px "微软雅黑"; color:#fff; height:70px;}
+.footer span.span1{background:url(../../images/dian.png)/*tpa=http://www.zjcpcy.com/m/template/images/dian.png*/ 0 20px no-repeat; background-size:28px 28px;}
+.footer span.span2{background:url(../../images/adress.png)/*tpa=http://www.zjcpcy.com/m/template/images/adress.png*/ 0 20px no-repeat; background-size:28px 29px;}
+.footer span.span3{background:url(../../images/mess.png)/*tpa=http://www.zjcpcy.com/m/template/images/mess.png*/ 0 20px no-repeat; background-size:26px 26px;}
+.footer span.span4{background:url(../../images/home.png)/*tpa=http://www.zjcpcy.com/m/template/images/home.png*/ 0 20px no-repeat; background-size:28px 28px;}
+
+
+/*share css style*/
+#mobile_share{position:fixed;right:0;bottom:90px;
+width: 123px;z-index: 99999;background: #fff;padding: 0;overflow: hidden;-webkit-transition: all 0.3s ease-in-out;  transition: all 0.3s ease-in-out;-webkit-transform: translateX(100%);}
+#mobile_share h2.title{text-align:center;line-height:30px;height:30px;background: #717577;color: #fff;font-size:14px;}
+#mobile_share .share_item{padding: 8px;background: #fff;border: 1px solid #f1f1f1;}
+#mobile_share .share_item li{display: block;overflow:hidden;margin: 8px 0;border-bottom: 1px solid #f1f1f1;padding-bottom: 8px;}
+.share-link {display: block;margin:0 auto;width: 105px;overflow: hidden;line-height: 32px;font-size: 12px;padding-left: inherit;}
+.share-link i{background: url(../../images/share_icon.png)/*tpa=http://www.zjcpcy.com/m/template/images/share_icon.png*/ no-repeat;background-size: 200px 32px;width:32px;height:32px;display: block;margin-right: 20px;float: left;}
+.share-link span{display:inline-block;}
+.share-weibo i{background-position:0 0;}
+.share-renren i{background-position:-42px 0;}
+.share-douban i{background-position:-84px 0;}
+.share-qweibo i{background-position:-126px 0;}
+.share-qzone i{background-position:-168px 0;}
+.share-weixin {display: block;margin:0 auto;width: 105px;overflow: hidden;line-height: 32px;font-size: 12px;padding-left: inherit;}
+.share-weixin i{background:url(../../images/share_icon2.png)/*tpa=http://www.zjcpcy.com/m/template/images/share_icon2.png*/ no-repeat;background-size:32px 32px;
+	width:32px;height:32px;display: block;margin-right: 20px;float: left;}
+.share-weixin span{display:inline-block;}
+body{width:100%; height:100%; overflow-x:hidden; position:relative;}
+
+/*job css style*/
+.jobcontent h4{background-color:#fff;height: 26px;line-height: 26px;padding-left:15px;}
+.jobcontent .text{padding:5px 15px;line-height:20px;}
+
+/*search css style*/
+.search{padding: 8px 20% 0;margin-top: 5%;}
+#formsearch{width:100%;}
+#keyword{border: none;line-height:32px;height:32px;width: 80%;text-align:left;text-indent:20px;float:left;}
+#s_btn{width: 20%;line-height:32px;height:32px;float:right;color:#fff;background:url(../../images/ss.png)/*tpa=http://www.zjcpcy.com/m/template/images/ss.png*/ no-repeat center;background-size: 100% 100%;}
+
+ /*search news css style*/
+.newslist{border-top:10px solid #fff;border-bottom:10px solid #fff;}
+.newslist li{text-align:left;padding-left:10px;line-height:34px;height:34px;position:relative;margin-bottom:1px;background:#fff;font-family: "Microsoft YaHei"}
+.newslist li span{position:absolute;right:10px;top:0;}
+
+
+/*分页样式*/
+.paging_num{padding:10px 0px;overflow: hidden;text-align: right;}
+.paging_num a{width:25px;height:20px;line-height: 20px;text-align: center;display:inline-block;
+    border: 1px dashed #e0e1dc;color:#666;margin-left:15px;}
+.paging_num a:hover{text-decoration:none;color:#005a98;border: 1px dashed #005a98;}
+.paging_num .paging_hover{text-decoration:none;color:#005a98;border: 1px dashed #005a98;}
+
+
+/*简历提交*/
+.job-title {padding-left:10px;line-height:40px;font-size:16px;margin-bottom:15px;}
+.job-title .job-send{background:#476199;padding:5px 10px;border-radius:4px;color:#fff;}
+.reveal-modal {position: relative;}
+.send-title{border-bottom: 1px solid #ddd;margin-bottom:15px;padding-bottom:10px;font-size:16px;color:#060;}
+.message-job{padding-bottom:10px;}
+.message-job li{line-height:30px;margin-bottom:10px;text-align: left;}
+.message-job li label{font-size:14px;width:20%;float:left;text-align:right;}
+.message-job li span{color:red;}
+.message-job li input[type='radio']{margin:0 10px;}
+.message-job li input.jobinput{border:1px solid #ccc;width:70%;margin:0 5px;line-height:24px;height:24px;padding:0 5px;text-align: left;}
+.message-job li select{line-height:24px;height:24px;padding:0 5px;border:1px solid #ccc !important;width: 70%;margin:0 5px;}
+.message-job li #experience{width:70%;height:80px;border:1px solid #ccc !important;margin:0 5px;}
+.message-job li input#file{margin-top:18px;margin-right:20px;}
+.message-job input.jobbtn{width:80px;border:1px solid #f1f1f1;background:#476199;color:#fff;border-radius:4px;font-family:"Microsoft Yahei";line-height:30px;height:30px;margin:0 8px 0;cursor:pointer;padding:0 !important;}
+.message-job input.jobbtn:hover{background:#476199;}
+.message-job li.last{border-bottom: 1px solid #ddd;margin-bottom:8px;padding:5px 0;font-size:14px;color:#060;}
+ .resume-prompt{line-height:36px;color:#999;font-size: 12px;}
+.message-job span.last{color:red;display:inline-block;line-height:36px;font-size: 12px;}
+.message-job li #checkcode{height: 32px;line-height: 32px;width: 20%;border: 1px solid #dedede;text-align: left;margin-bottom: 0;margin-left: 5px;}
+.message-job li a{font-size: 12px;}
+.message-job input{font-size: 12px !important;}
+textarea{ -webkit-user-select: auto !important; border: 1px solid rgba(0,0,0,.2) !important;}

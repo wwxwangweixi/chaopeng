@@ -1,0 +1,262 @@
+.w1920{width: 1920px;left: 50%;margin-left: -960px;position: relative;}
+.w1200{width: 1200px;position: relative;left: 50%;margin-left: -600px;}
+
+/*头部样式*/
+#header{width:1100px;margin:0 auto;}
+.top{height:137px;}
+.logo{float:left;margin-top:10px;}
+
+.topLink{float:right;text-align:right;position: relative;z-index: 9999;}
+.translate{width:100px;position: absolute;left: 0;top:10px;z-index: 9999;}
+.tran-in{left:120px;}
+.translate li{border: 1px dashed #cccccc;line-height: 26px;text-align: left;background: #fff;}
+.translate li a{display: block;padding-left: 10px;background: url(../images/dot4.png)/*tpa=http://www.zjcpcy.com/template/default/images/dot4.png*/ no-repeat 88% 11px;}
+.translate li a:hover{text-decoration: none;color:#275cea;cursor: pointer;}
+.translate-en{display: none;padding: 6px;padding-top:0px;}
+.translate li .translate-en a{padding-left: 0px;text-align: center;background: #fff;border-bottom: 1px solid #cccccc;}
+.translate li .translate-en a:hover{font-weight: bold;}
+
+.topLink .f_count{color:#ff0000;font-size:13px;font-weight:bold;}
+.topLink .k2{color:#000;font-size:14px;font-family:"微软雅黑";padding-left:30px;background: url(../images/phone.png)/*tpa=http://www.zjcpcy.com/template/default/images/phone.png*/ no-repeat left top;margin-top:38px;}
+
+#menu{width:1920px;position:relative;left:50%;margin-left:-960px;background:#036AAC}
+.wel,.k1{color:#6d6d6d;line-height:30px;}
+.k1 a{color:#6d6d6d;}
+.k1 a:hover{color:#036AAC;}
+/*热门搜索*/
+.searchbg{background:#ebebeb;font:400 12px/47px "微软雅黑";color:#333;width:1920px;position:relative;left:50%;margin-left:-960px;margin-bottom:20px;}
+.searchbg a{color:#333;}
+.searchbg a:hover{color:#036AAC;}
+.search{width:1100px;margin:0 auto;}
+#formsearch{float:right;width:304px;background:url(../images/ss.jpg)/*tpa=http://www.zjcpcy.com/template/default/images/ss.jpg*/ no-repeat center;margin-top:10px;}
+.hotSearch{float:left;font-weight:normal;color: #000;}
+.hotSearch a{margin-right:6px;color: #000;}
+#formsearch input{height:28px;background:none;border:none;line-height:28px;float:left;}
+#formsearch input#keyword{height:28px;line-height:28px;padding-left:6px;color:#666;width:246px;}
+#formsearch input#s_btn{width:52px;height:28px;line-height:28px;cursor:pointer;}
+
+/*主体样式*/
+#container{width:1100px;margin:0 auto;margin-top:10px;}
+
+/*----- Common css ------*/
+.fl{float:left;}
+.fr{float:right;}
+.di{_display:inline;}
+.fwn{font-weight:normal;}
+.dib{*display:inline;_zoom:1;_display:inline;_font-size:0px;}
+
+
+
+
+
+.menu_cate{width:240px;float:left;}
+.bgp{width:240px;border-radius: 5px;background: #036AAC;padding-bottom: 6px;}
+.cate_title{text-align:center;background: url(../images/p.png)/*tpa=http://www.zjcpcy.com/template/default/images/p.png*/ center no-repeat;height: 76px;border-radius: 5px 5px 0 0;}
+.bdr{overflow: hidden;width: 228px;margin: 0 auto;background: #fff;border-radius: 5px;}
+.sort1{background: #fff;width: 228px;display: block;margin: 0 auto;padding: 15px 0 30px;}
+.sort1 li{width: 209px;margin: 0 auto 20px;}
+.sort1 li.layer1 a{background:url(../images/sort1.png)/*tpa=http://www.zjcpcy.com/template/default/images/sort1.png*/  no-repeat center;display:block;font:600 14px/37px "微软雅黑";
+	width: 209px;height: 37px;
+	text-align: center;
+	color: #0a6eae;
+}
+.sort1 li.layer1 a:hover{}
+.trust{background:#036AAC;text-align:center;padding-top:30px;color:#fff;padding-bottom:22px;line-height: 30px;margin-top: 20px;margin-bottom: 50px;}
+.trust h3{font-size:22px;line-height:26px;margin-bottom:10px;}
+/*.trust h3 span{display:block;font:400 12px "微软雅黑";text-transform:uppercase;}*/
+.trust img{margin-bottom:5px;}
+
+
+.sort1 li .layer2{margin-top:10px;}
+.sort1 li .layer2 a{background:#036AAC;display:block;padding-left:34px;color:#fff;font:400 14px/35px "微软雅黑";}
+.sort1 li .layer2 a:hover{color:#036AAC;background:url(../images/la2.png)/*tpa=http://www.zjcpcy.com/template/default/images/la2.png*/ no-repeat center}
+
+
+
+.recommend_product{width:850px;float:right;}
+.recommend_product .title{height: 32px;padding-left:18px;font-weight:400;font-family:"微软雅黑";
+background:url(../images/ptitle.png)/*tpa=http://www.zjcpcy.com/template/default/images/ptitle.png*/ no-repeat left center;font-size:18px;color:#000;position:relative;line-height: 1;margin-top: 12px;}
+.recommend_product .title a{color:#848584;font:400 12px/32px "微软雅黑";right:20px;position:absolute;top:-5px;}
+.recommend_product .title a:hover{color:#036AAC;}
+.recommend_product .content{padding-top:12px;}
+.roll_product li{padding-bottom:0px;}
+
+
+
+
+/*6大理由*/
+.c1{background:#f4f4f4;width:1920px;position:relative;left:50%;margin-left:-960px;padding-top:55px;padding-bottom:30px;}
+.reason{width:1100px;margin:0 auto;}
+.reason h2{color:#036AAC;font:600 30px "微软雅黑";text-align:center;position:relative;}
+.reason h2 span{display:block;color:#999;font:400 12px "微软雅黑";text-transform:uppercase;margin-top:15px;}
+.reason h2 i{color:#fabe00;font:italic 600 126px/56px "宋体";position:absolute;left: 560px;top:-13px;}
+
+.ysl{width:560px;float:left;margin-top:70px;}
+.ysr{width:505px;float:right;margin-top:65px;}
+.c1 h3{color:#036AAC;font:600 26px/42px "微软雅黑";margin-bottom:3px;}
+.c1 h3 span{color:#fff;font:400 30px/42px "微软雅黑";width:42px;text-align:center;display:inline-block;margin-right:15px;background:#fabe00;border-radius:50%}
+.c1 .p1{font:400 12px/24px "微软雅黑";padding-bottom:18px;margin-left:55px;margin-bottom:15px;}
+.c1 .p11{border-bottom:1px solid #D1D1D1}
+.c1 .p2{margin-left:44px;margin-bottom:42px;}
+.c1 .p3{margin-bottom:82px;margin-left:15px;}
+.c1 .p4{margin-top:45px;}
+
+
+
+
+.slideGroup{
+	background: #F4F4F4;
+	padding: 32px 0 50px;
+	margin-top: 65px;
+}
+.slideGroup .parHd{
+	width: 1100px;
+	margin: 0 auto;
+	position: relative;
+	border-bottom: 1px solid #E1E1E1;
+	padding-left: 4px;
+	margin-bottom: 28px;
+}
+.slideGroup .parHd ul li{
+	display: inline-block;
+	background: #C7C7C7;
+	width: 118px;
+	height: 41px;
+	text-align: center;
+	font-size: 22px;
+	color: #036aac;
+	cursor: pointer;
+	line-height: 41px;
+	margin-left: -4px;
+}
+.slideGroup .parHd ul li.on{
+	background: #036AAC;
+	color: #fff;
+}
+.slideGroup .parHd a{
+	position: absolute;
+	right: 15px;top: 15px;
+	font-size: 12px;
+	color: #000;
+	opacity: .6;
+	text-transform: uppercase;
+}
+
+.slideGroup .parBd{
+	width: 1100px;margin: 0 auto;overflow: hidden;
+}
+
+.slideGroup .parBd .slideBox ul li{
+	width: 253px;height: 253px;margin-right: 15px;
+}
+
+
+
+
+
+
+
+.about{width:1100px;margin:0 auto;margin-top:55px;}
+.about_title{background:url(../images/atitle.png)/*tpa=http://www.zjcpcy.com/template/default/images/atitle.png*/ no-repeat center;font-size:26px;color:#036AAC;text-align:center;font-weight:400;margin-bottom:42px;}
+.about_title span{display:block;color:#999;text-transform:uppercase;font-size:12px;}
+.about .content{width:655px;float:right;color:#333;font:400 14px/25px "微软雅黑";}
+.about .aimg{width:408px;float:left;}
+.about .content a{display:block;width:140px;height:43px;background:#fabe00;font:400 14px/43px "微软雅黑";color:#fff;text-align:center;margin-top:22px;}
+.about .content a:hover{color:#efefef;}
+
+
+
+.c2{background:#f4f4f4;width:1920px;position:relative;left:50%;margin-left:-960px;padding-top:25px;margin-top:85px;padding-bottom:28px;}
+.case{width:1100px;margin:0 auto;}
+.ctitle{color:#036AAC;font:400 26px/45px "微软雅黑";position:relative;border-bottom:1px solid #d8d8d8}
+.ctitle a{position:absolute;right:18px;top:0;font-size:12px;}
+.case .content{padding-top:28px;}
+
+
+.news{width:1100px;margin:0 auto;}
+.news_company{width:672px;float:left;margin-top:50px;}
+.news1_title{background:url(../images/ntitle.jpg)/*tpa=http://www.zjcpcy.com/template/default/images/ntitle.jpg*/ no-repeat left bottom;color:#036AAC;font:400 26px/55px "微软雅黑";position:relative;}
+.news1_title a{font:400 12px/55px "微软雅黑";position:absolute;right:5px;top:5px;}
+.news_company .content{padding-top:20px;}
+.nlist{padding:6px 35px 13px;background:#eee;margin-bottom: 28px;}
+.nlist li a{color:#333;font:400 22px/48px "微软雅黑";text-align:center;display:block}
+.nlist li span{display:block;font:400 14px/26px "微软雅黑";text-indent:0;}
+.nlist li span a{color:#fabe00;display:inline;font:400 14px/26px "微软雅黑";}
+.nlist li a:hover{color:#0071cc;}
+
+.news_list1{margin-bottom:15px;margin-top:0;}
+.news_list1 dd{width:84px;border:1px solid #cfcfcf;text-align:center;font:600 36px "arial";color:#9696a3;float:left;height:74px;padding-top:10px;}
+.news_list1 dd span{display:block;font:400 14px "arial";}
+.news_list1 dt{width:535px;float:left;margin-left:32px;}
+.news_list1 dt a{color:#333;font:400 16px/36px "微软雅黑";}
+.news_list1 dt span{display:block;font:400 12px/24px "微软雅黑";text-indent:0;}
+.news_list1 dt span a{color:#fabe00;display:inline;font:400 12px/24px "微软雅黑";}
+.news_list1:hover dd{background:#0071cc;border-color:#0071cc;color:#fff;}
+.news_list1:hover dt a{color:#0071cc;}
+
+
+.news2_company{width:375px;float:right;margin-top:50px;}
+.news2_company .content{padding-top:20px;}
+.nlist1 li img{width:375px;height:204px;}
+.nlist1 h3{margin-top:18px;}
+.nlist1 h3 a{color:#333;font:400 14px/30px "微软雅黑";}
+.nlist1 h3 span{display:block;font:400 12px/25px "微软雅黑";text-indent:0;}
+.nlist1 h3 span a{color:#fabe00;display:inline;font:400 12px/25px "微软雅黑";}
+.nlist1 li h3 a:hover{color:#0071cc;}
+.news_list2{margin-top:20px;}
+.news_list2 li a{color:#333;font:400 14px/33px "微软雅黑";border-bottom:1px dashed #999;display:block;}
+.news_list2 li a:hover{color:#0071cc;}
+
+
+
+
+/*友情链接*/
+.f_link{width:1100px;margin:0 auto;margin-top:42px;margin-bottom:40px;}
+.f_link a{padding:0 13px;}
+
+/*页面底部*/
+.foot{background:#f3f3f3;width:1920px;position:relative;left:50%;margin-left:-960px;padding-top:28px;padding-bottom:15px;}
+#footer{width:1100px;margin:0 auto;}
+#footer a{color:#666;}
+#footer a:hover{color:#036AAC;text-decoration:none;}
+.logo1{float:left;width: 420px;height: 130px;border-right: 1px solid #C2C2C2;text-align: center;overflow: hidden;}
+.copyright{width:550px;margin-right: 50px;float:right;font-size: 12px;line-height: 25px;}
+
+.navfoot{
+	height: 46px;
+	line-height: 46px;
+	font-size: 16px;
+	background: #036AAC;
+	color: #fff;
+	text-align: center;
+}
+.navfoot a{color: #fff;}
+
+/*------------内页-------------------*/
+.left .box{margin-bottom:10px;}
+.left .box h3{line-height:31px;padding-left:15px;font-weight:bold;font-family:"微软雅黑";
+background:url(../images/nav.png)/*tpa=http://www.zjcpcy.com/template/default/images/nav.png*/ no-repeat 0% 100%;font-size:14px;color:#000;}
+.left .box .content{padding:5px 0px;}
+
+.prodescription{border:1px solid #e5e5e5;background:#f9f9f9;line-height:24px;padding:10px;margin-bottom:15px;text-indent:20px;}
+
+
+.n_banner{width:100%;margin:0 auto;position:relative;text-align: center;}
+.n_banner img{width:100%;}
+
+
+.left{width:225px;float:left;}
+.sort_menu h3{background-color:#ececec;line-height:28px;padding-left:15px;font-weight:bold;}
+.sort_product{margin-top:10px;}
+.sort_product h3{background-color:#ececec;line-height:28px;padding-left:15px;font-weight:bold;}
+
+.n_contact{margin-top:10px;}
+.n_contact h3{background-color:#ececec;line-height:28px;padding-left:15px;font-weight:bold;}
+.n_contact .content{padding:5px;line-height:24px;}
+
+.right{width:860px;float:right;padding-bottom:10px;}
+.sitemp{line-height:31px;height:31px;overflow:hidden;padding-right:10px;background:url(../images/nav.png) no-repeat 0% 100%;}
+.sitemp h2{width:340px;float:left;line-height:31px;text-align:center;text-align:left;text-indent:15px;font-size:14px;}
+.sitemp .site{width:380px;float:right;text-align:right;line-height:30px;}
+.right .content{padding:10px;padding-top:15px;overflow:hidden;line-height: 24px;}
+.sort_album{margin-top: 15px;}
